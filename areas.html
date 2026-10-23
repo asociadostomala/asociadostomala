@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Áreas de práctica | Tomalá &amp; Asociados</title>
+<meta name="description" content="Tomalá &amp; Asociados, tus defensores de confianza. Abogado Wilfrido Fernando Tomalá Bravo.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>:root{--black:#0B0809;--black2:#140E10;--wine:#6B1D2F;--wine-deep:#3E1020;--gold:#C9A24B;--gold-soft:#E2C77F;--gold-dim:#8F7436;--ink:#F1E9DD;--muted:#B9ADA0;--line:rgba(201,162,75,.35);--serif:"Cormorant Garamond",Garamond,"Times New Roman",serif;--sans:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color-scheme:dark;box-sizing:border-box}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;background:var(--black)}
+body{margin:0;background:var(--black);color:var(--ink);font:400 16.5px/1.7 var(--sans);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.08;margin:0 0 .5em}
+h1{font-size:clamp(2.8rem,7vw,5.4rem);max-width:12ch}
+h2{font-size:clamp(2.1rem,4.4vw,3.2rem)}
+h3{font-size:1.6rem;color:var(--gold-soft)}
+p{margin:0 0 1.1em;max-width:60ch;color:var(--muted)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+section{padding:88px 0}
+header{position:sticky;top:0;background:rgba(11,8,9,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:9}
+nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font:700 1.35rem var(--serif)}
+.brand svg{width:30px;height:36px;flex:none}
+.links{display:flex;gap:26px;align-items:center;font-size:.9rem;font-weight:500}
+.links a{text-decoration:none;color:var(--muted);padding:4px 0;border-bottom:1px solid transparent}
+.links a:hover{color:var(--gold-soft)}
+.links a[aria-current]{color:var(--gold-soft);border-color:var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:var(--black)!important;padding:14px 28px;font:700 .95rem var(--sans);text-decoration:none;border:1px solid var(--gold);cursor:pointer;letter-spacing:.02em}
+.btn:hover{background:var(--gold-soft);border-color:var(--gold-soft)}
+.btn.line{background:transparent;color:var(--gold-soft)!important}
+.btn.line:hover{background:rgba(201,162,75,.12)}
+.links .btn{padding:10px 20px;border-bottom:1px solid var(--gold)}
+.menu{display:none;background:none;border:1px solid var(--gold);color:var(--gold-soft);padding:8px 14px;font:600 .9rem var(--sans);cursor:pointer}
+.hero{position:relative;overflow:hidden;padding:120px 0 100px;background:radial-gradient(120% 90% at 85% 0%,var(--wine) 0%,var(--wine-deep) 38%,var(--black) 78%)}
+.hero .amp{position:absolute;right:0;top:50%;transform:translateY(-52%);font:italic 600 clamp(20rem,46vw,40rem)/1 var(--serif);color:transparent;-webkit-text-stroke:1.5px var(--gold-dim);opacity:.55;pointer-events:none;user-select:none}
+.hero .wrap{position:relative}
+.name{font:italic 600 1.5rem var(--serif);color:var(--gold-soft);margin:0 0 14px}
+.lead{font-size:1.2rem;max-width:46ch;color:var(--ink);opacity:.85}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.facts{display:flex;flex-wrap:wrap;margin-top:72px;border-top:1px solid var(--line)}
+.facts div{flex:1 1 200px;padding:20px 24px 0 0}
+.facts strong{display:block;font:600 1.5rem var(--serif);color:var(--gold-soft)}
+.facts span{font-size:.9rem;color:var(--muted)}
+.pagehead{padding:84px 0 56px;background:radial-gradient(110% 120% at 90% 0%,var(--wine) 0%,var(--wine-deep) 45%,var(--black) 85%);border-bottom:1px solid var(--line)}
+.pagehead h1{font-size:clamp(2.6rem,6vw,4.4rem);max-width:none;margin:0 0 .3em}
+.pagehead p{margin:0;color:var(--ink);opacity:.8;font-size:1.15rem}
+.rows{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:minmax(220px,1fr) 2fr;gap:32px;align-items:baseline;padding:30px 0;border-bottom:1px solid var(--line);transition:background .25s,padding .25s}
+.row:hover{background:linear-gradient(90deg,rgba(107,29,47,.6),transparent);padding-left:20px}
+.row h3,.row p{margin:0}
+.steps{list-style:none;counter-reset:s;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr)}
+.steps li{counter-increment:s;padding-right:28px;position:relative}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--black);border:1px solid var(--gold);color:var(--gold);font:600 1.3rem var(--serif);position:relative;z-index:1}
+.steps li::after{content:"";position:absolute;top:22px;left:44px;right:0;height:1px;background:var(--gold-dim)}
+.steps li:last-child::after{display:none}
+.steps strong{display:block;margin:20px 0 6px;font:600 1.45rem var(--serif)}
+.steps span{display:block;font-size:.95rem;color:var(--muted);max-width:26ch}
+.alt{background:var(--wine-deep);border-block:1px solid var(--line)}
+.bring{border:1px solid var(--gold);padding:36px;background:linear-gradient(160deg,var(--black2),var(--black));max-width:640px}
+.bring ul{margin:0;padding:0;list-style:none}
+.bring li{padding:12px 0 12px 26px;border-bottom:1px solid var(--line);position:relative}
+.bring li:last-child{border:0}
+.bring li::before{content:"";position:absolute;left:2px;top:22px;width:9px;height:9px;background:var(--gold);transform:rotate(45deg)}
+details{border-bottom:1px solid var(--line);padding:20px 0}
+details:first-of-type{border-top:1px solid var(--line)}
+summary{cursor:pointer;font:600 1.5rem var(--serif);list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--gold);font-size:1.6rem;line-height:1}
+details[open] summary::after{content:"−"}
+details p{margin:12px 0 0}
+.faq{max-width:800px}
+blockquote{margin:0 0 40px;font:italic 500 clamp(1.8rem,3.8vw,2.8rem)/1.25 var(--serif);color:var(--gold-soft);max-width:28ch;padding-left:28px;border-left:2px solid var(--gold)}
+.contact{display:grid;grid-template-columns:1fr 1.2fr;gap:72px}
+.info dt{font:600 1.2rem var(--serif);color:var(--gold-soft)}
+.info dd{margin:0 0 18px;color:var(--muted)}
+.info dd a{text-decoration:none;border-bottom:1px solid var(--gold-dim)}
+form{display:grid;gap:16px;padding:36px;border:1px solid var(--gold);background:linear-gradient(160deg,var(--wine-deep),var(--black))}
+label{display:grid;gap:6px;font-weight:600;font-size:.9rem;color:var(--gold-soft)}
+input,select,textarea{font:inherit;font-weight:400;color:var(--ink);background:rgba(0,0,0,.45);border:1px solid var(--gold-dim);padding:12px 14px;width:100%;border-radius:0}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold-soft)}
+textarea{min-height:120px;resize:vertical}
+.note{font-size:.82rem;margin:0}
+.band{background:var(--black2);border-block:1px solid var(--line);text-align:left}
+.band .wrap{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.band h2{margin:0}
+footer{padding:40px 0 96px;border-top:1px solid var(--line);font-size:.86rem;color:var(--muted)}
+footer p{max-width:80ch;margin-bottom:.5em}
+footer strong{font:600 1.3rem var(--serif);color:var(--gold-soft)}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:9;background:var(--gold);color:var(--black);padding:13px 22px;font:700 .92rem var(--sans);text-decoration:none;box-shadow:0 6px 24px rgba(0,0,0,.6)}
+.wa:hover{background:var(--gold-soft)}
+@media (max-width:900px){
+ section{padding:64px 0}
+ .menu{display:block}
+ .links{display:none;position:absolute;left:0;right:0;top:72px;flex-direction:column;align-items:stretch;gap:0;background:var(--black);border-bottom:1px solid var(--line);padding:8px 24px 20px}
+ .links.open{display:flex}
+ .links a{padding:14px 0;border-bottom:1px solid var(--line)}
+ .contact{grid-template-columns:1fr;gap:36px}
+ .row{grid-template-columns:1fr;gap:8px}
+ .steps{grid-template-columns:1fr;gap:32px}
+ .steps li::after{display:none}
+ .hero{padding:80px 0}.hero .amp{opacity:.25}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.row{transition:none}}
+</style></head><body>
+<header><div class="wrap"><nav>
+<a class="brand" href="index.html"><svg viewBox="0 0 30 36" aria-hidden="true"><path d="M2 2h26v18c0 8-6 13-13 15C8 33 2 28 2 20z" fill="#0B0809" stroke="#C9A24B" stroke-width="2"/><path d="M15 9v16M9 12h12M9 12l-3 6h6zM21 12l-3 6h6zM11 26h8" fill="none" stroke="#C9A24B" stroke-width="1.4" stroke-linejoin="round"/></svg>Tomalá &amp; Asociados</a>
+<button class="menu" id="menu" aria-expanded="false" aria-controls="links">Menú</button>
+<div class="links" id="links"><a href="index.html">Inicio</a><a href="areas.html" aria-current="page">Áreas</a><a href="proceso.html">Proceso</a><a href="preguntas.html">Preguntas</a><a href="nosotros.html">Nosotros</a><a class="btn" href="contacto.html">Agendar consulta</a></div>
+</nav></div></header>
+<main><div class="pagehead"><div class="wrap"><h1>Áreas de práctica</h1><p>Si tu situación no aparece aquí, escríbenos. Te orientamos sobre el mejor camino.</p></div></div><section><div class="wrap"><div class="rows">
+<div class="row"><h3>Familia</h3><p>Pensión de alimentos, tenencia, régimen de visitas, divorcio y filiación.</p></div>
+<div class="row"><h3>Laboral</h3><p>Despidos, liquidaciones, horas extras, afiliación al IESS y contratos.</p></div>
+<div class="row"><h3>Civil</h3><p>Arriendos, deudas, contratos, herencias y posesión de bienes.</p></div>
+<div class="row"><h3>Penal</h3><p>Defensa del procesado, denuncias y acompañamiento a víctimas.</p></div>
+<div class="row"><h3>Niñez y adolescencia</h3><p>Protección de derechos, medidas de amparo y trámites ante juntas cantonales.</p></div>
+<div class="row"><h3>Tránsito y contravenciones</h3><p>Citaciones, impugnaciones y defensa en audiencias.</p></div>
+</div></div></section><section class="band"><div class="wrap"><h2>¿No sabes cuál es tu caso?</h2><a class="btn" href="contacto.html">Agendar consulta</a></div></section></main>
+<footer><div class="wrap"><p><strong>Tomalá &amp; Asociados</strong></p>
+<p>Abogado Wilfrido Fernando Tomalá Bravo · Juan Montalvo y Eloy Alfaro · +593 99 483 6383</p>
+<p>La información de este sitio es orientativa y no reemplaza una consulta personal. Cada caso se analiza de forma individual.</p></div></footer>
+<a class="wa" href="https://wa.me/593994836383" rel="noopener">WhatsApp</a>
+<script>var m=document.getElementById('menu');if(m){m.addEventListener('click',function(){var l=document.getElementById('links');var o=l.classList.toggle('open');m.setAttribute('aria-expanded',o)})}
+var f=document.getElementById('f');if(f){f.addEventListener('submit',function(e){e.preventDefault();var d=new FormData(f);var b='Nombre: '+d.get('nombre')+'\nTeléfono: '+d.get('tel')+'\nTipo de caso: '+d.get('area')+'\n\n'+d.get('msg');location.href='mailto:fernandotomala5@hotmail.com?subject='+encodeURIComponent('Solicitud de consulta')+'&body='+encodeURIComponent(b)})}
+</script></body></html>
