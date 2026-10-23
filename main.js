@@ -1,0 +1,2 @@
+var m=document.getElementById('menu');if(m){m.addEventListener('click',function(){var l=document.getElementById('links');var o=l.classList.toggle('open');m.setAttribute('aria-expanded',o)})}
+var f=document.getElementById('f');if(f){f.addEventListener('submit',function(e){e.preventDefault();var d=new FormData(f);var b='Nombre: '+d.get('nombre')+'\nTeléfono: '+d.get('tel')+'\nTipo de caso: '+d.get('area')+'\n\n'+d.get('msg');location.href='mailto:fernandotomala5@hotmail.com?subject='+encodeURIComponent('Solicitud de consulta')+'&body='+encodeURIComponent(b)})}
